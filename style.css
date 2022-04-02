@@ -2,16 +2,20 @@ body{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    font-family: sans-serif;
+    margin: 0
 }
 
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 16px 15%;
 }
 
-.headerlogo{
+#headerlogo{
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 .heromain{
@@ -27,4 +31,39 @@ body{
 
 button{
     background-color: #3882F6;
+    padding: 8px 36px;
+    border-radius: 12px;
+    border: none;
+}
+
+.headerlinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.headcontainer{
+    display: flex;
+    padding: 120px 0px;
+    gap: 32px;
+}
+
+#img{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headtext{
+    flex: 1;
+}
+
+#headtext .herosec{
+    margin: 12px 0px 16px 0px;
 }
