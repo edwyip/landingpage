@@ -3,3 +3,28 @@ body{
     flex-flow: column;
     justify-content: space-between;
 }
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heromain{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.herosec, button{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+}
