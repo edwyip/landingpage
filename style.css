@@ -6,9 +6,11 @@ body{
     margin: 0
 }
 
-.header{
+.header, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+.header{
     padding: 16px 15%;
 }
 
@@ -152,4 +154,13 @@ button{
 #signbutton{
     border: 1px solid #F9FAF8;
     background-color: transparent
+}
+
+/* FOOTER SECTION */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 40px;
 }
