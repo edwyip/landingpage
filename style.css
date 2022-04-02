@@ -32,8 +32,9 @@ body{
 .ctacolor{
     background-color: #3882F6;
 }
+
 button{
-    padding: 8px 36px;
+    padding: 8px 30px;
     border-radius: 12px;
     border: none;
 }
@@ -121,4 +122,34 @@ button{
     font-weight: 700;
     font-style: normal;
     color: black;
+}
+
+/* SIGNUP SECTION */
+.signup{
+    padding: 80px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    height: 150px;
+}
+
+#itstime{
+    font-size: 24px;
+}
+
+#itstime, #signbutton{
+    color: #F9FAF8;
+}
+
+#signbutton{
+    border: 1px solid #F9FAF8;
+    background-color: transparent
 }
